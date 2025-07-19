@@ -1,0 +1,26 @@
+.day-cell {
+  flex: 1;
+  min-height: 80px;
+  border: 1px solid #e2e8f0;
+  box-sizing: border-box;
+  padding: 4px;
+  position: relative;
+  background: #f7fafc;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.day-cell:hover {
+  background: #e6fffa;
+}
+.day-cell.not-current-month {
+  background: #edf2f7;
+  color: #a0aec0;
+}
+.day-cell.today {
+  border: 2px solid #3182ce;
+  background: #bee3f8;
+}
+.day-number {
+  font-size: 1.1em;
+  font-weight: bold;
+}

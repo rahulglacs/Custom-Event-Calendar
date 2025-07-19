@@ -1,0 +1,10 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h1 {
+  text-align: center;
+}
